@@ -1,8 +1,8 @@
 import time
-from persistent_cache.persistent_cache import persistent_cache
+from persistent_cache import persistent_cache
 
 
-@persistent_cache()
+@persistent_cache.persistent_cache()
 def slow_func(a, b=1):
     # This function takes long time to compute.
     # It contains comments, empty lines and prints.
