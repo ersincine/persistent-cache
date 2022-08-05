@@ -1,7 +1,7 @@
 # persistent-cache
 **@persistent_cache() is a persistent @functools.cache.**
 
-Example usages include the following:
+Exemplary use cases include the following:
     
     
 ## Pause and continue
